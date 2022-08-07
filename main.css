@@ -11146,6 +11146,7 @@ textarea.form-control-lg {
     transform: 0;
   }
   .banner-container .banner .right-banner:hover {
+    width: 100vw;
     border-radius: 0;
     top: 0;
     height: 100vh;
