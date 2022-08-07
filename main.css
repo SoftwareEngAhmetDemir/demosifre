@@ -10904,7 +10904,7 @@ textarea.form-control-lg {
   }
 }
 .banner-container {
-  height: 100vh;
+  height: calc(100vh - 67.5px);
   position: relative;
 }
 .banner-container #close-btn {
@@ -10919,7 +10919,7 @@ textarea.form-control-lg {
   border-radius: 50%;
 }
 .banner-container .banner {
-  height: 100vh;
+  height: calc(100vh - 67.5px);
   overflow: hidden;
   position: absolute;
   left: 0;
@@ -11051,6 +11051,9 @@ textarea.form-control-lg {
 .banner-container .banner .right-banner .form-check-label {
   font-size: 11px;
 }
+.banner-container .banner .right-banner .tel {
+  margin-bottom: 10px;
+}
 .banner-container .banner .right-banner .tel img {
   width: 35px;
   height: 35px;
@@ -11150,6 +11153,9 @@ textarea.form-control-lg {
     border-radius: 0;
     top: 0;
     height: 100vh;
+  }
+  .banner-container .banner .right-banner .tel {
+    margin-bottom: 0;
   }
 }
 .live-bar {
