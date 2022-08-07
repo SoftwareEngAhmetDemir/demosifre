@@ -10904,7 +10904,7 @@ textarea.form-control-lg {
   }
 }
 .banner-container {
-  height: calc(100vh - 67.5px);
+  height: 100vh;
   position: relative;
 }
 .banner-container #close-btn {
@@ -10919,7 +10919,7 @@ textarea.form-control-lg {
   border-radius: 50%;
 }
 .banner-container .banner {
-  height: calc(100vh - 67.5px);
+  height: 100vh;
   overflow: hidden;
   position: absolute;
   left: 0;
